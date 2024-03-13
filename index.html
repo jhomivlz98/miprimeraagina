@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi primera web</title>
+    <!-- Primeros se cargan librerias extrenas css, js-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0"
+    />
+    <!-- Despues tus propias librerias css, js-->
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="favorite-icon">
+        <span class="material-symbols-outlined"> favorite </span>
+      </div>
+      <h1>Mi Web</h1>
+      <div>
+        <nav>
+          <input type="checkbox" id="check" />
+          <label for="check">
+            <div class="menu">
+              <span class="material-symbols-outlined"> menu </span>
+            </div>
+          </label>
+          <ul>
+            <li><a href="">Inicio</a></li>
+            <li><a href="">Acerca de mí</a></li>
+            <li><a href="">Trabajos</a></li>
+            <li><a href="">Servicios</a></li>
+            <li><a href="">Contacto</a></li>
+          </ul>
+        </nav>
+        <!-- <div class="button-menu">
+          <span class="material-symbols-outlined"> menu </span>
+        </div> -->
+      </div>
+    </header>
+    <main>
+      <section class="section1">
+        <div class="acerca-de-mí">
+          <h2>Acerca de mí</h2>
+          <h4> <em>Bienvenido a mi página web. Aquí aprenderás más sobre mí.</em></h4>
+          <p>
+            Me llamo Jhomira, soy de Amazonas y le gusta viajar, Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit. Quam quos, incidunt
+            nesciunt quas beatae quasi, maiores dolorum exercitationem molestias
+            ad nam? Nihil, at hic sapiente consectetur incidunt voluptatibus
+            inventore necessitatibus?
+          </p>
+        </div>
+        <div class="imagen-acerca-de-mí">
+          <img
+            src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+        </div>
+      </section>
+      <section class="section2">
+        <img
+          src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+        />
+      </section>
+    </main>
+    <footer>
+      <div><span class="material-symbols-outlined"> favorite </span></div>
+      <h3>Contacto</h3>
+      <ul>
+        <li><a href="">Instagram</a></li>
+        <li><a href="">Tiktok</a></li>
+        <li><a href="">Whatsapp</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
